@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.hotel-bg-color {
+    background-color: #222;
+    padding: 30px;
+}
+
+.btn-login {
+    border-radius: 35px;
+    background: #FF7665;
+    width: 130px;
+}
+
+.card-container-home {
+    background: rgba(36, 171, 112, 0.04);
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.home-content-container {
+    border-radius: 20px 0px 0px 20px;
+    background-color: #E6F0F1;
+    width: 50%;
+    padding: 40px;
+}
+
+.home-image-container {
+    background-image: url('https://res.cloudinary.com/dsovyumur/image/upload/v1696432197/Home_Page_b7a4c1.jpg');
+    background-size: cover;
+    height: 80vh;
+    width: 65%;
+    border-radius: 20px;
+}
+
+.play-btn {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.home-heading {
+    font-family: 'Roboto';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+}
+
+.home-desc {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.watchvideo-text {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.search-box-container {
+    width: 70%;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 280px;
+    background: #FFF;
+    box-shadow: 0px 22px 38px 0px rgba(0, 34, 19, 0.08);
+    position: absolute;
+    bottom: 12%;
+    left: 13%;
+}
+
+.search-box-section {
+    padding: 15px;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 80px;
+    background-color: black;
+}
+
+.search-box {
+    border-radius: 280px;
+    background-color: rgba(255, 84, 62, 0.80);
+    width: 200px;
+    height: 100px;
+    flex-shrink: 0;
+    padding: 35px;
+}
+
+.head1 {
+    color: #222;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.desc {
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.popular-rooms-heading {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.view-all-btn {
+    border-radius: 280px;
+    background: rgba(255, 118, 101, 0.40);
+    border-width: 0px;
+    width: 100px;
+    height: 50px;
+}
+
+.card-room-container {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.room-image {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.content-room-container {
+    padding: 20px;
+}
+
+.room-name {
+    color: #222;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.room-rate {
+    color: #222;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.room-rating {
+    color: #222;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.facilities-content {
+    margin-bottom: 200px;
+}
+
+.facilities-heading {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.facilities-desc {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact-btn {
+    border-radius: 35px;
+    margin-top: 70px;
+    background: rgba(255, 118, 101, 0.80);
+    border-width: 0px;
+    width: 200px;
+    height: 50px;
+}
+
+.facility-card-contianer {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.facility-name {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.history-img {
+    width: 100%;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.history-container {
+    border-radius: 16px;
+    background: #F4FBF8;
+    margin-bottom: 120px;
+}
+
+.history-content {
+    padding: 10px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.history-heading {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.history-disc {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.explore-btn {
+    border-radius: 35px;
+    background: #FF7665;
+    border-width: 0px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+}
+
+.faq-container {
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.faq-content {}
+
+.faq-heading1 {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.faq-heading2 {
+    color: #FF7665;
+    font-family: 'Open Sans';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.faq-description {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.faq1-container {
+    padding: 20px;
+    background-color: white;
+}
+
+.faq2-container {
+    padding: 20px;
+    background-color: white;
+}
+
+.faq3-container {
+    padding: 20px;
+    background-color: white;
+}
+
+.faq-question {
+    color: #0C1623;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.faq-answer {
+    color: rgba(29, 38, 58, 0.90);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hotel-map-cotainer {
+    background-image: url('https://res.cloudinary.com/dsovyumur/image/upload/v1696480007/hotel-map_dcundg.png');
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-bottom: 200px;
+}
+
+.map-card-container {
+    padding: 15px;
+    border-radius: 16px;
+    background-color: white;
+    margin: 25px;
+}
+
+.elipse1 {
+    margin-left: 420px;
+}
+
+.visit-us-heading {
+    color: #222;
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.visit-us-desc {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.e-mail-container {
+    border-radius: 50px;
+    background: #FAFAFA;
+}
+
+.Contact-btn {
+    border-radius: 50px;
+    background: rgba(211, 101, 88, 0.80);
+    border-width: 0px;
+    color: white;
+    width: 120px;
+}
+
+.e-mail-text {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px;
+    margin-right: 130px;
+}
+
+.footer-head {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-home {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-home-options {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-content {
+    position: relative;
+    top: auto;
+    bottom: 260px;
+    left: 300px;
+}
+
+.hotel-footer-section {
+    margin-bottom: 0px;
+}
